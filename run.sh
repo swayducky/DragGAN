@@ -2,9 +2,9 @@
 
 source .venv/bin/activate
 
-python visualizer_drag_gradio.py
+# python visualizer_drag_gradio.py
+# exit 0
 
-exit 0
 python visualizer_drag.py \
     checkpoints/stylegan2_lions_512_pytorch.pkl \
     checkpoints/stylegan2-ffhq-512x512.pkl \
